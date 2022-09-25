@@ -7,12 +7,20 @@ public class DemoClass {
     String name, phone;
     int age, salary;
     
-    void SetObject(String s1, String s2, int m, int n){
+    DemoClass(String s1, String s2, int m, int n){
         
-        name=s1;
-        phone=s2;
-       age=m;
-      salary=n;
+        name= s1;
+        phone= s2;
+        age= m;
+        salary= n;
+        
+        
+    }
+    
+    DemoClass()
+    {
+        
+        System.out.println("No velue");
         
         
         

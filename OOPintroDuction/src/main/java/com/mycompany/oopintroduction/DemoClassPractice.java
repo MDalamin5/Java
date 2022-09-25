@@ -6,7 +6,7 @@ public class DemoClassPractice {
     
     public static void main(String[] args) {
         
-        DemoClass student= new DemoClass();
+        DemoClass student= new DemoClass("Al AMin", "01641049756", 24, 5000);
         
         /*
         student.name="Al Amin";
@@ -14,19 +14,19 @@ public class DemoClassPractice {
         student.age= 24;
         student.salary= 5000;
         */
-        student.SetObject("Al AMin", "01641049756", 24, 5000);
+        
         
         student.DisplayDemo();
         
+       
+       DemoClass stu2 = new DemoClass("kaysar", "014545254", 25,7000);
         
-        DemoClass stu2 = new DemoClass();
         
-        stu2.name= "Kaysar";
-        stu2.phone= "0178654555";
-        stu2.age= 25;
-        stu2.salary= 7000;
-        
+       
         stu2.DisplayDemo();
+        
+        DemoClass stu3 = new DemoClass();
+        stu3.DisplayDemo();
         
         
         
